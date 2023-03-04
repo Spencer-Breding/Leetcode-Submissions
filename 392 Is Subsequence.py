@@ -1,3 +1,5 @@
+# Runtime: 31 ms (Beats 81.1% of submissions)
+# Memory : 13.9 MB (Beats 32.61% of submissions)
 class Solution:
     def isSubsequence(self, s: str, t: str) -> bool:
         if len(s) == 0: return True
