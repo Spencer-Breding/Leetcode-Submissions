@@ -2,8 +2,6 @@ class Solution:
     def pivotIndex(self, nums: List[int]) -> int:
         leftSum=0
         rightSum=sum(nums)
-        print(leftSum)
-        print(rightSum)
         for i in range(len(nums)):
             rightSum -= nums[i]
             leftSum += nums[i]
